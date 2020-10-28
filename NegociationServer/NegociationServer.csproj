@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0251b88f-10ce-4c10-ac13-b0f5896f6c2a</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.SignalR.Management" Version="1.5.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="client\" />
+  </ItemGroup>
+</Project>
